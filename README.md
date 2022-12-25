@@ -1,3 +1,10 @@
+## Begin
+Requirements
+Node.js version >= 14.17.0 or above (which can be checked by running node -v). You can use nvm for managing multiple Node versions on a single machine installed.
+Yarn. Yarn is a performant package manager for JavaScript and replaces the npm client.
+
+
+
 <p align="center">
   <a href="https://metaplex.com">
     <img alt="Metaplex" src="https://metaplex.com/static/logos/metaplex.svg" width="250" />
@@ -37,12 +44,15 @@ Clone the repo, and run `yarn start` to deploy.
 
 ```bash
 $ git clone https://github.com/Minh99/auctionnft.git
-$ cd metaplex/js
+$ cd auctionnft/js
 $ yarn install && yarn bootstrap && yarn build
 $ yarn start
 ```
 
 Navigate to `http://localhost:3000/` to explore the deployed application.
+
+## after init store
+After store initialization completes, you must save your new store addresses. In the Store configuration section on the store page click on the Copy button and paste in the .env file in js/packages/web.
 
 ## Rust Programs
 
