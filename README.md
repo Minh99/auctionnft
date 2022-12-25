@@ -14,10 +14,6 @@ Metaplex is comprised of two core components: an on-chain program, and a self-ho
 
 ## Important NOTE
 
-Metaplex now follows a release versioning process called semantic versioning. If you are make a new market place, launching a candy machine or any live project that will handle real money, we recommend using a release tag. Using a release tag will ensure that new changes don't break your UI.
-
-https://github.com/metaplex-foundation/metaplex/releases
-
 ### How to checkout a release
 ```
 //If you are using a fork
@@ -35,18 +31,12 @@ git checkout tags/<tag> -b new_version_branch /// this will take the new tag and
 git rebase new_version_branch
 ```
 
-## In Depth Developer's Guide
-
-If you want to deep dive on the Architecture, you can do so here:
-
-https://docs.metaplex.com/
-
 ## Installing
 
 Clone the repo, and run `yarn start` to deploy.
 
 ```bash
-$ git clone https://github.com/metaplex-foundation/metaplex.git
+$ git clone https://github.com/Minh99/auctionnft.git
 $ cd metaplex/js
 $ yarn install && yarn bootstrap && yarn build
 $ yarn start
